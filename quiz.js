@@ -61,9 +61,9 @@ const data = [
     id: 6,
     question: "What is more numerous than grass?",
     answers: [
-      { answer: "Mind", isCorrect: true },
+      { answer: "Mind", isCorrect: false },
       { answer: "Subconscios Mind", isCorrect: false },
-      { answer: "thoughts", isCorrect: false },
+      { answer: "thoughts", isCorrect: true },
     ],
   },
   {
@@ -79,8 +79,8 @@ const data = [
     id: 6,
     question: "Select the animal, which doesn't close eyes while Sleeping?",
     answers: [
-      { answer: "Crocodile", isCorrect: true },
-      { answer: "Fish", isCorrect: false },
+      { answer: "Crocodile", isCorrect: false },
+      { answer: "Fish", isCorrect: true },
       { answer: "Dolphins", isCorrect: false },
     ],
   },
