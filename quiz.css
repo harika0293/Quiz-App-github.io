@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+  background-color: #22223b;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 800px;
+  height: 500px;
+  background-color: white;
+  position: relative;
+}
+
+.game{
+/* display: none; */
+}
+
+.content{
+  padding: 50px;
+}
+
+.question{
+  font-size: 23px;
+}
+
+.answer{
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.submit{
+  background-color: orange;
+  color: white;
+  border: none;
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.result {
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+
+.result h1{
+  font-size: 50px;
+}
+
+.correct{
+  color: green;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrong{
+  color: red;
+  font-family: 'Poppins', sans-serif;
+}
+
+.play{
+  color: white;
+  background-color: rebeccapurple;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+}
